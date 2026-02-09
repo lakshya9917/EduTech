@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "popins", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+  body{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    justify-content: space-evenly;
+    background-image: url('../images/team.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+h1{
+    text-align: center;
+    color: white;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 300px;
+    height: 350px;
+    line-height: 2rem;
+    padding: 20px 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin: 0 2rem;
+    background-image: linear-gradient(rgb(255, 196, 0),rgb(255, 56, 89), rgb(217, 0, 255));
+}
+
+.card img{
+    width: 100px;
+    background-color: #D0B6A5;
+    margin-bottom: 10px;
+    border-radius: 100%;
+}
+
+.card a{
+    font-size: 1.5rem;
+    margin:10px;
+    color: black;
+}
+
+.card a i{
+    transition: .3s ease;
+}
+
+.card a i:hover{
+    transform: scale(1.2);
+    color: white;
+}
